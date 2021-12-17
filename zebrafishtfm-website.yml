@@ -1,0 +1,12 @@
+name: zebrafishtfm-website
+channels:
+  - conda-forge
+dependencies:
+  - mkdocs=1.0.4
+  - pip=19.1.1
+  - markdown=3.1
+  - wcwidth=0.1.7
+  - pip:
+      - mkdocs-material==4.3.0
+      - pymdown-extensions==6.0.0
+      - "--editable=git+https://github.com/jdumas/figureAltCaption@c1eb51cffa0c500d5f7c9b78bd3b5e752e14aee9#egg=figureAltCaption-master"

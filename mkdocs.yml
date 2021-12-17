@@ -1,0 +1,49 @@
+site_name: ZebraFishTFM
+site_url: "https://zebrafishtfm.github.io/"
+repo_name: "zebrafishtfm"
+repo_url: "https://github.com/zebrafishtfm/zebrafishtfm"
+edit_uri: ""
+site_description: "3D TFM for Zebra Fishes."
+# strict: true
+docs_dir: "docs"
+use_directory_urls: false
+remote_branch: "main"
+theme:
+  name: material
+  favicon: "favicon.ico"
+  logo:
+    icon: " "
+  palette:
+    primary: "purple"
+    accent: "purple"
+markdown_extensions:
+  - codehilite
+  - footnotes
+  - admonition
+  - toc:
+      permalink: true
+  - figureAltCaption
+  - markdown.extensions.smarty
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  # - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra_javascript:
+  - "extra.js"
+nav:
+  - Home: index.md
+  - Documentation: usage.md
+  - Command-Line: cli.md
