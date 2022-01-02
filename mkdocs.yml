@@ -47,3 +47,14 @@ nav:
   - Home: index.md
   - Documentation: usage.md
   - Command-Line: cli.md
+nav:
+  - Home: index.md
+  - Documentation:
+    - Usage: usage.md
+    - Command-Line: cli.md
+    - Interface Description:
+      - Stage 1 - Detection: stage_1.md
+      - Stage 2 - Meshing: stage_2.md
+      - Stage 3 - Depth: stage_3.md
+      - Stage 4 - Analysis: stage_4.md
+      - Stage 5 - Results: stage_5.md
